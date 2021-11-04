@@ -1,3 +1,7 @@
+---
+permalink: /index.js
+---
+
 # react-training
 This is for react js training
 
