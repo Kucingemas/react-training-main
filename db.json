@@ -1,0 +1,16 @@
+{
+    "todolists": [
+        {
+            "id": 1,
+            "task": "mandi pagi"
+        },
+        {
+            "id": 2,
+            "task": "gosok gigi"
+        },
+        {
+            "id": 3,
+            "task": "bantu ibu"
+        }
+    ]
+}

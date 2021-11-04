@@ -6,6 +6,7 @@ import {
     Link
 } from "react-router-dom";
 import TransferApp from "../day2-practice/components";
+import ReactRedux from "../day4-practice/react-redux";
 
 export default function RouterApp() {
     return (
@@ -40,6 +41,11 @@ export default function RouterApp() {
                                         Bank
                                     </Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link to="/redux" className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" >
+                                        Redux
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -48,6 +54,9 @@ export default function RouterApp() {
                 {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                 <Switch>
+                    <Route path="/redux">
+                        <ReactRedux />
+                    </Route>
                     <Route path="/about">
                         <About />
                     </Route>
